@@ -470,9 +470,9 @@ nav {
 	-webkit-box-pack: center;
 	    -ms-flex-pack: center;
 	        justify-content: center;
-	-webkit-box-align: end;
-	    -ms-flex-align: end;
-	        align-items: end;
+	        -webkit-box-align: end;
+	            -ms-flex-align: end;
+	                align-items: flex-end;
 	height: 17vh;
 	padding-bottom: 3vh;
 	color: #fff;
