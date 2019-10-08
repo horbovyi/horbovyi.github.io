@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>V.Horbovyi | Portfolio</title>
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta charset="UTF-8">
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=no" />
+	<meta name="description" content="Graphic Designer" />
+
+	<meta property="og:type" content="website" />
+	<meta property="og:site_name" content="Volodymyr Horbovyi" />
+	<meta property="og:title" content="Volodymyr Horbovyi | Portfolio" />
+	<meta property="og:description" content="Graphic Designer" />
+	<meta property="og:url" content="https://vhorbovyi.github.io" />
+	<meta property="og:locale" content="uk">
+	<meta property="og:image:type" content="image/jpeg" />
+	<meta property="og:image" content="https://vhorbovyi.github.io/poster.jpg" />
+	<meta property="og:image:width" content="1845" />
+	<meta property="og:image:height" content="965" />
+
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="icon" href="favicon_32x32.png" sizes="32x32" />
+	<link rel="icon" href="favicon_192x192.png" sizes="192x192" />
+	<link rel="apple-touch-icon-precomposed" href="favicon_180x180.png" />
+	<meta name="msapplication-TileImage" content="favicon_270x270.png" />
+
+	<meta name="theme-color" content="#1d182a">
+	<meta name="msapplication-navbutton" content="#1d182a">
+	<meta name="apple-mobile-web-app-status-bar-style" content="#1d182a">
+
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/jquery-1.12.0.min.js"></script>
+	<script src="js/about.js"></script>
+	<script src="js/character.js"></script>
+</head>
+<body class="worlds_decorations des-worlds-pre">
+
+<main class="worlds">
+	<header class="worlds-info des-decoration">
+
+	</header>
+
+	<div class="world_1-1 flip-card">
+		<a href="digital_line_art.html" class="flip-card-inner">
+			<div class="flip-card-front">
+				<p>world 1-1</p>
+			</div>
+			<div class="flip-card-back">
+				<p>Digital Line Art</p>
+			</div>
+		</a>
+	</div>
+
+	<div class="world_1-2 flip-card">
+		<a href="retrofuturism.html" class="flip-card-inner">
+			<div class="flip-card-front">
+				<p>world 1-2</p>
+			</div>
+			<div class="flip-card-back">
+				<p>Retrofuturim</p>
+			</div>
+		</a>
+	</div>
+	<div class="world_1-3 flip-card">
+		<a href="belidays.html" class="flip-card-inner">
+			<div class="flip-card-front">
+				<p>world 1-3</p>
+			</div>
+			<div class="flip-card-back">
+				<p>Belidays</p>
+			</div>
+		</a>
+	</div>
+	<div class="world_1-4 flip-card">
+		<a href="sticker_pack.html" class="flip-card-inner">
+			<div class="flip-card-front">
+				<p>world 1-4</p>
+			</div>
+			<div class="flip-card-back">
+				<p>Sticker Pack</p>
+			</div>
+		</a>
+	</div>
+	
+	<nav class="worlds-design">
+		<a href="index.html">Main</a>
+		<a href="graphic_designer.html" class="not-active">Graphic Designer</a>
+		<a href="web_developer.html">Web Developer</a>
+		<a href="#" onclick="openNav()">About Me</a>
+	</nav>
+	
+</main>
+
+<div class="character-move-wrap">
+	<span id="character" >
+		<img class="character_r_leg" src="svg/character_right_leg.svg" />
+		<img class="character_l_leg" src="svg/character_left_leg.svg" />
+		<img src="svg/character_back.svg" />
+	</span>
+</div>
+
+<div id="side_panel_menu" class="side_panel">
+	<ul class="character_info">
+		<li>Character Info</li>
+		<li><span class="tag_mark">Full Name:</span> Volodymyr Horbovyi</li>
+		<li><span class="tag_mark">Age:</span> 24y.o.</li>
+		<li><span class="tag_mark">Location:</span> Berezhany, Ukraine</li>
+		<li><span class="tag_mark">Main class:</span> Graphic Designer</li>
+		<li><span class="tag_mark">- Subclass:</span> Web Developer</li>
+		<li><span class="tag_mark">Items:</span></li>
+		<li class="character_item tooltip">
+			<img src="svg/item_helmet.svg" alt="Helmet Icon" class="character_item"> 
+			Creativity Helmet
+			<div class="tooltip_text">One of the lost <span class="tag_mark">inventions</span> of Leonardo da Vinci</div>
+		</li>
+		<li class="character_item tooltip">
+			<img src="svg/item_spear.svg" alt="Spear Icon" class="character_item"> 
+			Illustrator's Spear
+			<div class="tooltip_text">Gives the owner <span class="tag_mark">a clear vision</span> of things</div>
+		</li>
+		<li class="character_item tooltip">
+			<img src="svg/item_shield.svg" alt="Shield Icon" class="character_item"> 
+			HTML & CSSHIELD
+			<div class="tooltip_text">It's good when you know the <span class="tag_mark">layout</span> of battle</div>
+		</li>
+		<li><span class="tag_mark">Status:</span> <span class="status">looking for a job</span></li>
+		<li><a href="mailto:volodymyr.horbovyi@gmail.com?subject=Job%20Invite">Send invite</a> <span>volodymyr.horbovyi@gmail.com</span></li>
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+	</ul>
+</div>
+
+<script>
+	var modal = document.getElementById("side_panel_menu");
+window.onclick = function(event) {
+  if (event.target == modal) {
+   document.getElementById("side_panel_menu").style.height = "0";
+   document.getElementById("side_panel_menu").style.opacity = "0";
+   document.getElementById("side_panel_menu").style.top = "-100vh";
+  }
+}
+</script>
+
+</body>
+</html>
