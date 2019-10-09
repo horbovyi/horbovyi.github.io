@@ -1206,8 +1206,8 @@ body.in-world nav {
 	margin-top: 120px;
 	margin-left: 10%;
 	padding: 12px 14px;
-	background-color: rgba(0,0,0, .1);
-	box-shadow: 0 0 5px rgba(0,0,0, .5);
+	background-color: rgba(0,0,0, .2);
+	box-shadow: 0 0 15px rgba(0,0,0, .5);
 }
 .quest-block img {
 	display: inline-block;
@@ -1315,8 +1315,8 @@ body.in-world nav {
 .preview-side img {
 	height: 320px;
 	margin: 0 auto;
-	background-color: rgba(0,0,0, .1);
-	box-shadow: 0 0 5px rgba(0,0,0, .5);
+	background-color: rgba(0,0,0, .2);
+	box-shadow: 0 0 15px rgba(0,0,0, .5);
 }
 
 .preview-side a {
