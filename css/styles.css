@@ -1561,10 +1561,12 @@ body.in-world nav {
 	.quest-block h1,
 	.description-side h1 {
 		font-size: 1.4em;
+		margin-bottom: 15px;
 	}
 	.quest-block p,
 	.description-side p {
 		font-size: 1.1em;
+		text-align: left;
 	}
 	.description-side {
 		-webkit-box-ordinal-group: 2;
