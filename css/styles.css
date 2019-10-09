@@ -1497,10 +1497,6 @@ body.in-world nav {
 	.status {
 		margin-bottom: 14px;
 	}
-	.character_info .closebtn {
-		top: 101%;
-		left: 10%;
-	}
 	.des-worlds-pre .character-move-wrap {
 		display: none;
 	}
@@ -1719,10 +1715,6 @@ body.in-world nav {
 	}
 	.status {
 		margin-bottom: 14px;
-	}
-	.character_info .closebtn {
-		top: -4px;
-		left: 101.5%;
 	}
 	.character-move-wrap {
 		width: 100vw;
@@ -1986,11 +1978,6 @@ body.in-world nav {
 	}
 	.status {
 		margin-bottom: 14px;
-	}
-	.character_info .closebtn {
-		top: -2px !important;
-		right: -40px !important;
-		left: 101%;
 	}
 	main.worlds {
 		-ms-grid-columns: 1fr 1fr 1fr 1fr;
