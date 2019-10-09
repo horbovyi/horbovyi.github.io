@@ -1462,7 +1462,7 @@ body.in-world nav {
 	}
 	#side_panel_menu {
 		width: 92vw;
-		padding: 1vh 4vw;
+		padding: 30px 4vw;
 		-webkit-box-pack: start;
 		    -ms-flex-pack: start;
 		        justify-content: flex-start;
