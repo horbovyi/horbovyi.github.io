@@ -1502,7 +1502,6 @@ body.in-world nav {
 	.des-worlds-pre .character-move-wrap {
 		display: none;
 	}
-
 	main.worlds {
 		-ms-grid-columns: 1fr 1fr;
 				grid-template-columns: 1fr 1fr;
@@ -1528,6 +1527,7 @@ body.in-world nav {
 		    -ms-flex-align: start;
 		            -ms-grid-row-align: flex-start;
 		        align-items: flex-start;
+		width: 100%;
 	}
 	body.in-world main {
 		-ms-grid-rows: .1fr .01fr .4fr;
@@ -1540,6 +1540,7 @@ body.in-world nav {
 		    -ms-flex-align: start;
 		            -ms-grid-row-align: flex-start;
 		        align-items: flex-start;
+		width: 100%
 	}
 	body.in-world nav a {
 		margin-top: 0;
