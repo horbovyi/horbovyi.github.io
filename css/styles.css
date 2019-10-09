@@ -1802,7 +1802,7 @@ body.in-world nav {
 	}
 }
 
-@media (max-width: 319px) {
+@media (max-width: 340px) {
 	.character_info {
 		-webkit-transform: scale(.8);
 		        transform: scale(.8);
