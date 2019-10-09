@@ -1657,7 +1657,7 @@ body.in-world nav {
 }
 
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 	.preview-side img {
 		width: 100%;
 	}
