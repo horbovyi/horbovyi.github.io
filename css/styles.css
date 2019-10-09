@@ -1392,7 +1392,7 @@ body.in-world nav {
 		width: 2em;
 	}
 	.nickname {
-		font-size: .8em;
+		font-size: 1em;
 		margin-left: .2em;
 	}
 	.avatar_n_name:after {
