@@ -1664,6 +1664,9 @@ body.in-world nav {
 }
 
 @media (min-width: 768px) {
+	.insta-box a:hover {
+		margin-bottom: 27vh;
+	}
 	.player-info {
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
