@@ -1658,6 +1658,12 @@ body.in-world nav {
 
 
 @media (min-width: 768px) {
+	.preview-side img {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) {
 	.player-info {
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
