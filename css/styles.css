@@ -1607,15 +1607,6 @@ body.in-world nav {
 			"des-box dev-box"
 			"nav nav";
 	}
-	.player-info {
-		-webkit-box-orient: horizontal;
-		-webkit-box-direction: normal;
-		    -ms-flex-direction: row;
-		        flex-direction: row;
-	}
-	.positions {
-		margin-top: 0;
-	}
 	.insta-box, .gmail-box {
 		background-size: 40%;
 	}
@@ -1660,6 +1651,15 @@ body.in-world nav {
 
 
 @media (min-width: 768px) {
+	.player-info {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+	}
+	.positions {
+		margin-top: 0;
+	}
 	main {
 		z-index: 100;
 		height: 100vh;
