@@ -1613,6 +1613,10 @@ body.in-world nav {
 			"des-box dev-box"
 			"nav nav";
 	}
+	.player-info {
+		-webkit-background-size: 10%;
+		background-size: 10%;
+	}
 	.insta-box, .gmail-box {
 		background-size: 40%;
 	}
@@ -1867,12 +1871,16 @@ body.in-world nav {
 		-webkit-box-pack: stretch;
 		    -ms-flex-pack: stretch;
 		        justify-content: stretch;
+	}	.player-info {
+		
 	}
 	.player-info {
 		-webkit-box-orient: horizontal;
 		-webkit-box-direction: normal;
 		    -ms-flex-direction: row;
 		        flex-direction: row;
+    -webkit-background-size: 5%;
+		background-size: 5%;
 	}
 	.avatar, .avatar img{
 		width: 5vw;
