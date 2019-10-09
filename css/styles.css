@@ -1387,6 +1387,8 @@ body.in-world nav {
 		-webkit-box-direction: normal;
 		    -ms-flex-direction: column;
 		        flex-direction: column;
+		height: auto;
+		background-size: 30%;
 	}
 	.avatar, .avatar img{
 		width: 2em;
