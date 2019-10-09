@@ -1392,7 +1392,7 @@ body.in-world nav {
 		width: 2em;
 	}
 	.nickname {
-		font-size: 1em;
+		font-size: .8em;
 		margin-left: .2em;
 	}
 	.avatar_n_name:after {
@@ -1426,7 +1426,7 @@ body.in-world nav {
 		margin-left: .2em;
 	}
 	.positions li a {
-		font-size: 1em;
+		font-size: .8em;
 	}
 	.insta-box a {
 		margin-bottom: 5em;
