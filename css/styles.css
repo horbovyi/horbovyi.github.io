@@ -2014,4 +2014,27 @@ body.in-world nav {
 		margin: 0 32px;
 		margin-top: 0;
 	}
+	@-webkit-keyframes floating_I {
+		0% {background-position: center 50%;}
+		50% {background-position: center 60%;}
+		100% {background-position: center 50%;}
+	}
+
+	@keyframes floating_I {
+		0% {background-position: center 50%;}
+		50% {background-position: center 60%;}
+		100% {background-position: center 50%;}
+	}
+
+	@-webkit-keyframes floating_G {
+		0% {background-position: center 85%;}
+		50% {background-position: center 75%;}
+		100% {background-position: center 85%;}
+	}
+
+	@keyframes floating_G {
+		0% {background-position: center 85%;}
+		50% {background-position: center 75%;}
+		100% {background-position: center 85%;}
+	}
 }
