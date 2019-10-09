@@ -1929,9 +1929,6 @@ body.in-world nav {
 	.insta-box a {
 		margin-bottom: 25vh;
 	}
-	.insta-box a:hover {
-		margin-bottom: 5.5em;
-	}
 	.insta-box a, .gmail-box a {
 		width: 6vw;
 	}
