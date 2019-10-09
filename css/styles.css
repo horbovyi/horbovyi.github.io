@@ -1834,7 +1834,8 @@ body.in-world nav {
 	.description-side p {
 		font-size: 1.6em;
 	}
-	.character-move-wrap {
+	.character-move-wrap,
+	.des-worlds-pre .character-move-wrap {
 		display: inherit;
 	}
 	.character_info li:last-of-type span {
