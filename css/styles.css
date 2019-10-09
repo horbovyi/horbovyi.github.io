@@ -1558,10 +1558,12 @@ body.in-world nav {
 		width: 80%;
 		margin: 0 auto;
 	}
-	.quest-block h1 {
+	.quest-block h1,
+	.description-side h1 {
 		font-size: 1.4em;
 	}
-	.quest-block p {
+	.quest-block p,
+	.description-side p {
 		font-size: 1.1em;
 	}
 	.description-side {
@@ -1799,6 +1801,14 @@ body.in-world nav {
 	.preview-side .video-player {
 		width: 360px;
 		height: 188px;
+	}
+	.quest-block h1,
+	.description-side h1 {
+		font-size: 2em;
+	}
+	.quest-block p,
+	.description-side p {
+		font-size: 1.6em;
 	}
 }
 
