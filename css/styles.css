@@ -1873,6 +1873,10 @@ body.in-world nav {
 		    -ms-flex-pack: center;
 		        justify-content: center;
 	}
+	.intro a {
+		font-size: .6em;
+		margin: 0 32px;
+	}
 }
 @media (min-width: 1200px) {
 	main {
