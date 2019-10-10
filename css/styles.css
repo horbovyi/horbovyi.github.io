@@ -1867,6 +1867,12 @@ body.in-world nav {
 	.character_info li:nth-child(2) {
 		margin-top: 0;
 	}
+	#side_panel_menu {
+		padding: 0 4vw;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
 }
 @media (min-width: 1200px) {
 	main {
