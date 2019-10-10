@@ -1850,6 +1850,7 @@ body.in-world nav {
 
 @media (max-width: 340px) {
 	.character_info {
+		width: 84vw;
 		-webkit-transform: scale(.8);
 		        transform: scale(.8);
 	}
