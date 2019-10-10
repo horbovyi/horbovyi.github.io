@@ -1857,7 +1857,15 @@ body.in-world nav {
 		font-size: 1.2em;
 	}
 }
+@media (max-width:480px) {
+	.character_info li:nth-child(1) {
+		position: inherit;
+		box-shadow: none;
+		background-color: none;
+		margin-top: 4px;
+	}
 
+}
 @media (min-width: 1200px) {
 	main {
 		z-index: 100;
