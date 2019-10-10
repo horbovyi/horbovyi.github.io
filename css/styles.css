@@ -1864,7 +1864,9 @@ body.in-world nav {
 		background-color: none;
 		margin-top: 4px;
 	}
-
+	.character_info li:nth-child(2) {
+		margin-top: 0;
+	}
 }
 @media (min-width: 1200px) {
 	main {
