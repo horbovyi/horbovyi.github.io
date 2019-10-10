@@ -1856,6 +1856,10 @@ body.in-world nav {
 	.character_info li:nth-child(1) {
 		font-size: 1.2em;
 	}
+	.character_info li:last-of-type span {
+		font-size: .8em;
+		margin-top: 8px;
+	}
 }
 @media (max-width:480px) {
 	.character_info li:nth-child(1) {
@@ -1863,6 +1867,8 @@ body.in-world nav {
 		box-shadow: none;
 		background-color: none;
 		margin-top: 4px;
+		margin-left: 0;
+		width: 90%;
 	}
 	.character_info li:nth-child(2) {
 		margin-top: 0;
