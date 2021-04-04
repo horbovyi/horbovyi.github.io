@@ -919,18 +919,14 @@ div[class^="world_"]:focus, div[class^="world_"]:active {
 }
 
 .dev-worlds-pre .world_1-1 .flip-card-back {
-	background-image: url(../img/azoo.jpg);
-}
-
-.dev-worlds-pre .world_1-2 .flip-card-back {
-	background-image: url(../img/csiu.jpg);
-}
-
-.dev-worlds-pre .world_1-3 .flip-card-back {
 	background-image: url(../img/night.jpg);
 }
 
-.dev-worlds-pre .world_1-4 .flip-card-back {
+.dev-worlds-pre .world_1-2 .flip-card-back {
+	background-image: url(../img/azoo.jpg);
+}
+
+.dev-worlds-pre .world_1-3 .flip-card-back {
 	background-image: url(../img/gmkg.jpg);
 }
 
