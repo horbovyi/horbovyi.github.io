@@ -89,7 +89,7 @@ body {
 	background-size: 40vw;
 	background-position: center center;
 	height: 100vh;
-	font-family: 'VT323', monospace !important;
+	font-family: 'VT323', monospace;
 }
 
 img {
