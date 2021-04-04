@@ -1822,8 +1822,8 @@ body.in-world nav {
 		        order: 0;
 	}
 	.preview-side .video-player {
-		width: 420px;
-		height: 210px;
+		width: 360px;
+		height: 188px;
 	}
 	.quest-block h1,
 	.description-side h1 {
