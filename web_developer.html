@@ -35,6 +35,40 @@
 	<script src="js/jquery-1.12.0.min.js"></script>
 	<script src="js/about.js"></script>
 	<script src="js/character.js"></script>
+	<style type="text/css">
+		main.worlds {
+		    -ms-grid-columns: 1fr 1fr 1fr;
+		    grid-template-columns: 1fr 1fr 1fr;
+		    -ms-grid-rows: 1fr 3fr 1fr;
+		    grid-template-rows: 1fr 3fr 1fr;
+		    grid-template-areas: "header header header header" "world_1-1 world_1-2 world_1-3 world_1-4" "nav nav nav nav";
+		}
+		@media (min-width: 279px) {
+			main.worlds {
+			-ms-grid-columns: 1fr 1fr;
+					grid-template-columns: 1fr 1fr;
+			-ms-grid-rows: 1fr 2fr 2fr 1fr;
+					grid-template-rows: 1fr 2fr 2fr 1fr;
+			grid-template-areas: 
+				"header header" 
+				"world_1-1 world_1-2" 
+				"world_1-3 world_1-4" 
+				"nav nav";
+			}
+		}
+		@media (min-width: 1200px) {
+			main.worlds {
+			-ms-grid-columns: 1fr 1fr 1fr;
+			grid-template-columns: 1fr 1fr 1fr;
+			-ms-grid-rows: 1fr 3fr 1fr;
+			grid-template-rows: 1fr 3fr 1fr;
+			grid-template-areas: 
+				"header header header header" 
+				"world_1-1 world_1-2 world_1-3 world_1-4" 
+				"nav nav nav nav";
+			}
+		}
+	</style>
 </head>
 <body class="worlds_decorations dev-worlds-pre">
 
